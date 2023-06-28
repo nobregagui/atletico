@@ -1,0 +1,196 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-image: url("../img/fundoEsfumacado.png");
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    gap: 30px;
+    height: 700px;
+}
+
+.logo-header-desktop {
+    display: none;
+}
+
+.logo-header {
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-header {
+        display: none;
+    }
+
+    .logo-header-desktop {
+        display: flex;
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    .header {
+        
+        align-items: initial;
+        gap: 0px;
+        padding: 25px;
+        justify-content: initial;
+
+    }
+
+    .paragraph {
+        font-size: 2em;
+        max-width: 1100px;
+        text-align: center;
+        align-self: center;
+        color: #cfcfcf;
+        animation-duration: 2s;
+        animation-name: slidein-left;
+        background-color: #000000a4;
+
+
+    }
+
+    .title-header {
+        font-size: 65px;
+        animation-duration: 2s;
+        animation-name: slidein-rigth;
+    }
+
+    .container-title {
+        margin-top: 85px;
+    }
+
+    .container-button {
+        animation-duration: 4s;
+        animation-name: opacity;
+    }
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.title-header {
+    color: #fff;
+    padding: 0px 20px;
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-weight: bold;
+    animation-duration: 2s;
+    animation-name: opacity;
+    overflow: hidden;
+}
+
+.container-title {
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.paragraph {
+    color: #fbfbfb;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    padding: 0px 20px;
+
+}
+
+.button-header {
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+    background-image: linear-gradient(to right, #203B33 0%, #010817 51%);
+    cursor: pointer;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    padding: 25px 10px;
+}
+
+.menu-list {
+    display: none;
+}
+
+.menu-list a {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 25px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #FBEC06;
+}
+
+.menu-list a:hover {
+    transition: 1s;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-list {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        gap: 50px;
+        font-size: 20px;
+        color: #203B33;
+        font-weight: bold;
+    }
+}
+
+@keyframes slidein-rigth {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slidein-left {
+    from {
+        margin-right: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

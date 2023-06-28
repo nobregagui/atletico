@@ -1,0 +1,41 @@
+.container-contact {
+    background-image: linear-gradient(to right, #203b33c7 0%, #203B33 51%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-mobile-contact {
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitle-mobile-contact {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.title-form {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container-contact {
+        flex-direction: row;
+    }
+
+    .title-mobile-contact {
+        display: none;
+    }
+
+    .subtitle-mobile-contact {
+        display: none;
+    }
+}

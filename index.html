@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clube Atletico</title>
+    <link rel="stylesheet" href="./src/Styles/header.css" />
+    <link rel="stylesheet" href="./src/Styles/section-carrossel.css" />
+    <link rel="stylesheet" href="./src/Styles/section-table.css" />
+    <link rel="stylesheet" href="./src/Styles/section-about.css" />
+    <link rel="stylesheet" href="./src/Styles/section-store.css" />
+    <link rel="stylesheet" href="./src/Styles/section-emphasis.css" />
+    <link rel="stylesheet" href="./src/Styles/section-sponsor.css" />
+    <link rel="stylesheet" href="./src/Styles/footer.css" />
+    <link rel="icon" type="img/png" href="./src/img/logoAtletico.png" />
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Incluir o CSS do Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <img class="logo-header" width="240px" src="./src/img/logoAtletico.png" />
+        <div class="menu-header">
+          <img class="logo-header-desktop" src="./src/img/logoAtletico.png" />
+          <div class="menu-list">
+            <a href="#estatisticas">Estatisticas</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#carouselExampleIndicators">Jogos</a>
+            <a href="#destaques">Destaques</a>
+          </div>
+        </div>
+        <div class="container-title">
+          <h1 class="title-header">Sejam bem vindos a nossa casa!</h1>
+        </div>
+      </div>
+    </header>
+    <div
+      class="carousel slide"
+      id="carouselExampleIndicators"
+      data-bs-ride="carousel"
+    >
+      <!-- Início indicadores para navegar nos slides do carousel -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <!-- Fim indicadores para navegar nos slides do carousel -->
+
+      <!-- Início slide carousel -->
+      <div class="carousel-inner">
+        <h1 class="title-carousel">
+          Venha conferir um pouco dos nossos ultimos jogos!
+        </h1>
+        <div class="carousel-item active">
+          <div class="carousel-img">
+            <img
+              src="./src/img/fotoTime1.jpeg"
+              alt="Categoria 1"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="infos-carousel">
+            <h1 class="title-description">Atletico Ipê x Revolução</h1>
+            <p class="description-carousel">
+              Em um clássico emocionante de futebol, as equipes protagonizaram
+              um jogo eletrizante com um placar final de 3 a 3 no primeiro tempo
+              e 8 a 6 no segundo tempo.
+              <br />
+              No primeiro quadro, as equipes demonstraram um grande equilíbrio e
+              intensidade desde o apito inicial. Ambos os times criaram diversas
+              oportunidades de gol e demonstraram um excelente desempenho
+              ofensivo. Com jogadas rápidas e precisas, as redes foram
+              balançadas em seis ocasiões, resultando em um empate emocionante.
+              <br />
+              Já no segundo quadro, a partida atingiu níveis ainda mais elevados
+              de emoção. As equipes pareciam determinadas a superar os
+              adversários, resultando em um verdadeiro show de gols. Os ataques
+              eram incisivos, com jogadas de alta qualidade técnica e
+              finalizações precisas. Com um total impressionante de 14 gols, o
+              segundo tempo foi uma verdadeira montanha-russa de emoções.
+              <br />
+              Ambos os quadros foram marcados por momentos memoráveis, dribles
+              habilidosos, defesas espetaculares e um ritmo frenético que
+              manteve os espectadores na beira de seus assentos. Os jogadores
+              demonstraram grande entrega e espírito competitivo ao longo de
+              toda a partida.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-img">
+            <img
+              src="./src/img/fotoTime2.jpeg"
+              class="d-block w-100"
+              alt="Categoria 1"
+              width="700px"
+              height="500px"
+            />
+          </div>
+          <div class="infos-carousel">
+            <h1 class="title-description">Atletico Ipê x Laser</h1>
+            <p class="description-carousel">
+              Em uma partida emocionante, o Atlético Ipê conquistou uma vitória
+              expressiva sobre seu adversário, com um placar final de 7 a 2 no
+              primeiro quadro.
+              <br />
+              Desde o início, o Atlético Ipê demonstrou sua superioridade em
+              campo, dominando o jogo com um futebol ofensivo e eficiente. Com
+              jogadas bem trabalhadas, passes precisos e finalizações certeiras,
+              a equipe marcou gols de forma consistente ao longo da partida.
+              <br />
+              Os jogadores do Atlético Ipê exibiram grande entrosamento e
+              habilidade, aproveitando as oportunidades de gol que surgiam. Com
+              jogadas rápidas pelos flancos e ataques organizados pelos alas, o
+              time demonstrou um futebol envolvente e cativante para os
+              torcedores presentes.
+              <br />
+              Enquanto isso, a equipe adversária lutou bravamente, tentando
+              equilibrar o jogo, mas enfrentou dificuldades para conter o ímpeto
+              ofensivo do Atlético Ipê. Apesar de seus esforços, a defesa
+              adversária não conseguiu evitar os gols do time vencedor.
+              <br />
+              Já no segundo quadro a equipe Laser levou por 8 a 6
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-img">
+            <img
+              src="./src/img/fotoTime3.jpeg"
+              class="d-block w-100"
+              alt="Categoria 1"
+              width="700px"
+              height="500px"
+            />
+          </div>
+          <div class="infos-carousel">
+            <h1 class="title-description">Art & Ação x Atlético</h1>
+            <p class="description-carousel">
+              Desde o início, as duas equipes mostraram muita determinação e
+              habilidade, proporcionando um confronto equilibrado e repleto de
+              oportunidades de gol. Ambos os times demonstraram um futebol
+              rápido, com jogadas técnicas e jogadores talentosos em ação.
+              <br />
+              Durante a partida, o Atlético lutou intensamente para se manter no
+              jogo, buscando oportunidades de gol e pressionando a defesa
+              adversária. Com uma defesa sólida e boas jogadas de ataque, a
+              equipe marcou gols importantes ao longo do confronto.
+              <br />
+              No entanto, o time adversário também demonstrou grande qualidade e
+              eficiência no ataque. Com jogadas bem trabalhadas e finalizações
+              precisas, eles conseguiram superar a defesa do Atlético e ampliar
+              o placar ao longo da partida.
+              <br />
+              Apesar dos esforços do Atlético, a equipe não conseguiu reverter o
+              resultado desfavorável e acabou perdendo por uma diferença de dois
+              gols, com o placar final de 7 a 5.
+              <br />
+              Apesar da derrota, a partida foi marcada por momentos
+              emocionantes, lances de grande técnica e uma intensa disputa em
+              quadra. Ambas as equipes mostraram garra e determinação,
+              proporcionando um espetáculo empolgante para os torcedores
+              presentes.
+              <br />
+              Após o jogo, o Atlético avaliará seu desempenho, identificará os
+              pontos a serem trabalhados e buscará aprender com essa experiência
+              para os próximos desafios. A derrota servirá como motivação para
+              aprimorar o jogo e buscar melhores resultados nas próximas
+              partidas.
+              <br />
+              A torcida, apesar da derrota, demonstrou seu apoio e reconheceu o
+              esforço dos jogadores do Atlético durante toda a partida. O time
+              continuará se dedicando nos treinamentos e se preparando para as
+              próximas competições, confiando em seu potencial e determinação
+              para alcançar melhores resultados no futuro.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-img">
+            <img
+              src="./src/img/fotoTime4.jpeg"
+              class="d-block w-100"
+              alt="Categoria 1"
+              width="700px"
+              height="500px"
+            />
+          </div>
+          <div class="infos-carousel">
+            <h1 class="title-description">100 Pressão x Atlético</h1>
+            <p class="description-carousel">
+              O Atlético Ipê sagrou-se campeão em uma partida memorável,
+              vencendo por 3 a 2! Foi uma conquista histórica que encheu de
+              orgulho não apenas o time, mas também toda a torcida apaixonada
+              que sempre esteve ao nosso lado.
+              <br />
+              Desde o início do jogo, ficou claro que seria uma disputa
+              acirrada. Ambas as equipes demonstraram um futebol de alto nível,
+              com jogadas incríveis e uma intensidade eletrizante. A cada
+              momento, o Atlético Ipê mostrou sua garra, determinação e
+              habilidade, superando os desafios que surgiram ao longo da
+              partida.
+              <br />
+              Com um desempenho exemplar, nossos jogadores deram o seu melhor em
+              cada lance, mostrando o verdadeiro espírito de equipe. Os gols
+              marcados foram fruto de um trabalho coletivo, onde cada jogador
+              desempenhou seu papel de forma brilhante. Cada investida ofensiva
+              foi marcada por técnica, velocidade e precisão.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Fim slide carousel -->
+
+      <!-- Início anterior e próximo slide carousel -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!-- Fim anterior e próximo slide carousel -->
+    </div>
+    <div id="estatisticas" class="section-statistic">
+      <h1 class="title-table">Estatisticas do Time</h1>
+      <table id="myTable" class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Jogos</th>
+            <th>Asst.</th>
+            <th>Gols</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Thiago</td>
+            <td>21</td>
+            <td>11</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>Kalil</td>
+            <td>15</td>
+            <td>9</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Léo</td>
+            <td>19</td>
+            <td>8</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Geovane</td>
+            <td>16</td>
+            <td>4</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Matheus F.</td>
+            <td>13</td>
+            <td>2</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Babu</td>
+            <td>13</td>
+            <td>2</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Renan</td>
+            <td>12</td>
+            <td>1</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Digo</td>
+            <td>18</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Lucas</td>
+            <td>5</td>
+            <td>3</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Édson</td>
+            <td>12</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Leli</td>
+            <td>4</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Diogo</td>
+            <td>9</td>
+            <td>4</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Pacca</td>
+            <td>11</td>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Gui</td>
+            <td>8</td>
+            <td>2</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>André</td>
+            <td>23</td>
+            <td>8</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Kevin</td>
+            <td>6</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Alison</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Ryan</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <!-- Mais linhas da tabela -->
+        </tbody>
+      </table>
+      <div id="tableInfo" class="text-center"></div>
+      <nav>
+        <ul id="pagination" class="pagination justify-content-center"></ul>
+      </nav>
+    </div>
+    <div class="section-store">
+      <h1 class="title-store">Nossos Produtos</h1>
+      <div class="container-cards-img">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./src/img/modeloTorcedor.jpeg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Camisa modelo Torcedor</h5>
+            <p class="card-text">
+              Chegou a nova camisa de torcedor, modelo masculino, feita
+              exclusivamente para os nossos torcedores, garanta já a sua!
+            </p>
+            <p style="font-weight: bolder">Por apenas</p>
+            <p>R$: 59,99</p>
+            <a
+              href="https://wa.me/5511951192122?text=Ol%C3%A1%2C+gostaria+de+ver+os+produtos+do+Atl%C3%A9tico+Ip%C3%AA%21"
+              class="button-store"
+              >Comprar Agora!</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./src/img/modeloTorcedora.jpeg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Camisa modelo Torcedora</h5>
+            <p class="card-text">
+              Chegou a nova camisa de torcedor, modelo masculino, feita
+              exclusivamente para os nossos torcedores, garanta já a sua!
+            </p>
+            <p style="font-weight: bolder">Por apenas</p>
+            <p>R$: 44,99</p>
+            <a
+              href="https://wa.me/5511951192122?text=Ol%C3%A1%2C+gostaria+de+ver+os+produtos+do+Atl%C3%A9tico+Ip%C3%AA%21"
+              class="button-store"
+              >Comprar Agora!</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./src/img/modeloInfantil.jpeg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Camisa modelo Mini Craque</h5>
+            <p class="card-text">
+              Chegou a nova camisa de torcedor infantil, feita exclusivamente
+              para os nossos pequenos torcedores, garanta já a sua!
+            </p>
+            <p style="font-weight: bolder">Por apenas</p>
+            <p>R$: 34,99</p>
+            <a
+              href="https://wa.me/5511951192122?text=Ol%C3%A1%2C+gostaria+de+ver+os+produtos+do+Atl%C3%A9tico+Ip%C3%AA%21"
+              class="button-store"
+              >Comprar Agora!</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./src/img/chaveiro-edit.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Chaveiro Atlético</h5>
+            <p class="card-text">
+              Chegou o novo chaveiro atlético. Leve o time para todos os lugares!
+            </p>
+            <p style="font-weight: bolder">Por apenas</p>
+            <p>R$: 9,99</p>
+            <a
+              href="https://wa.me/5511951192122?text=Ol%C3%A1%2C+gostaria+de+ver+os+produtos+do+Atl%C3%A9tico+Ip%C3%AA%21"
+              class="button-store"
+              >Comprar Agora!</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sobre" class="section-about">
+      <h1 class="title-about">Sobre nós</h1>
+      <p class="description-about">
+        Fundado em 2017, o Atlético Ipê é um time de futebol que representa com
+        orgulho a quebrada. Com uma paixão inigualável pelo esporte e o apoio da
+        nossa dedicada torcida, estamos empenhados em levar o nome do nosso time
+        além das fronteiras e conquistar grandes feitos.
+        <br />
+        Nossa história é marcada por momentos emocionantes, vitórias
+        inesquecíveis e uma união que faz a diferença dentro e fora de campo.
+        Acreditamos no poder do esporte como um agente transformador, capaz de
+        unir pessoas, inspirar jovens talentos e promover o desenvolvimento da
+        nossa comunidade.
+        <br />
+
+        No Atlético Ipê, valorizamos o trabalho em equipe, a disciplina e a
+        determinação. Nossos jogadores são verdadeiros guerreiros, representando
+        as cores do nosso clube com garra e comprometimento. Sob o comando de
+        nossa talentosa comissão técnica, buscamos constantemente aprimorar
+        nossas habilidades e alcançar um desempenho de excelência.
+        <br />
+        Além dos desafios nos campeonatos locais, estamos sempre em busca de
+        novas oportunidades para nos testar contra equipes de renome nacional e
+        internacional. Queremos elevar o nome do Atlético Ipê a novos patamares
+        e deixar nossa marca no cenário esportivo.
+        <br />
+        Nossa torcida é o coração pulsante do clube. Os apaixonados torcedores
+        do Atlético Ipê nos acompanham fielmente em cada partida, enchendo as
+        arquibancadas com suas vozes e vibrando a cada gol. Sua energia nos
+        impulsiona a lutar até o último minuto, buscando a vitória em cada jogo.
+        <br />
+        O Atlético Ipê não é apenas um time de futebol. Somos uma família unida
+        em torno de uma paixão em comum. Agradecemos a todos que nos apoiam e
+        nos acompanham nessa jornada, desde os patrocinadores e parceiros até os
+        fãs mais dedicados. Juntos, construímos uma história de sucesso e
+        continuamos a escrever novos capítulos emocionantes.
+        <br />
+
+        Seja bem-vindo ao mundo do Atlético Ipê. Junte-se a nós nessa caminhada
+        rumo a novas conquistas!
+      </p>
+    </div>
+    <div class="insta-art" style="width: 100%">
+      <img style="width: 100%" src="./src/img/arteInsta.png" alt="" />
+    </div>
+    <div class="section-sponsor">
+      <h1 class="title-sponsor">Patrocinadores</h1>
+      <div class="container-sponsor">
+        <p class="description-sponsor">
+          O Atlético Ipê é um time de futebol fundado em 2017, localizado na
+          cidade de Ipê. Com uma paixão pelo esporte e o apoio de uma torcida
+          dedicada, o time busca representar a comunidade e conquistar grandes
+          feitos.
+          <br />
+          Valorizando o trabalho em equipe, disciplina e determinação, o
+          Atlético Ipê busca constantemente aprimorar suas habilidades. Além
+          disso, o clube se orgulha de contar com o apoio de patrocinadores que
+          contribuem para o seu sucesso e crescimento.
+          <br />
+          Juntos, eles formam uma equipe imbatível, unindo os valores do esporte
+          ao mundo corporativo. O Atlético Ipê convida novos patrocinadores a
+          fazerem parte dessa jornada de sucesso e a contribuírem para o
+          crescimento sustentável do clube.
+        </p>
+        <div class="container-img-sponsor">
+          <img src="./src/img/logoLadoPequeno.png" alt="" />
+          <img src="./src/img/patroCorte.png" alt="" />
+          <img src="./src/img/logo-flash.png" alt="" />
+          <img src="./src/img/logo-nbf.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="destaques" class="section-emphasis">
+      <h1 class="title-emphasis">Destaques do mês</h1>
+      <div class="container-img-emphasis">
+        <div>
+          <img src="./src/img/destaque1.jpeg" alt="" />
+        </div>
+        <div>
+          <img src="./src/img/destaque2.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img
+        class="img-footer"
+        width="180px"
+        src="./src/img/logoAtletico.png"
+        alt=""
+      />
+      <div class="section-social-midia">
+        <div class="container-footer">
+          <h1 class="title-social-midia">Institucional</h1>
+          <div class="container-infos">
+            <a class="link-footer-page" href="#inicio">Início</a>
+            <a class="link-footer-page" href="#sobre">Sobre</a>
+            <a class="link-footer-page" href="#destaques">Destaques</a>
+            <a class="link-footer-page" href="#estatisticas">Estatisticas</a>
+          </div>
+        </div>
+        <div id="contato" class="container-footer">
+          <h1 class="title-social-midia">Contato</h1>
+          <div class="container-infos">
+            <span class="link-footer-page">WhatsApp: (11) 95119-2122</span>
+            <span class="link-footer-page">Telefone: (11) 95119-2122</span>
+            <span class="link-footer-page"
+              >E-mail: clubeatleticoipefutsal@gmail.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>
+        Clube Atlético Ipê © 2023 – Todos os Direitos Reservados. CNPJ:
+        12.224.234/0001-11
+      </p>
+    </div>
+    <!-- Incluir o JS do Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

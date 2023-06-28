@@ -1,0 +1,48 @@
+.section-about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 85px;
+    background: black;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.description-about {
+    color: #fbfbfb;
+    font-family: 'Slabo 27px', serif;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    max-width: 940px;
+    text-align: center;
+}
+
+.title-about {
+    color: #FBEC06;
+    font-family: 'Geologica', sans-serif;
+    align-self: center;
+    overflow: hidden;
+}
+
+th {
+    font-weight: 900;
+}
+
+td {
+    font-family: 'Slabo 27px', serif;
+}
+
+@media only screen and (min-width: 1170px) {
+    .section-about {
+        flex-direction: initial;
+        gap: 0px;
+    }
+
+    .title-about {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}

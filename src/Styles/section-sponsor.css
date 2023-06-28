@@ -1,0 +1,47 @@
+
+.section-sponsor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 75px;
+    padding: 20px;
+    background-color: #c8c8c8;
+}
+
+.container-sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img-sponsor {
+    display: flex;
+    gap: 25px;
+    max-width: 250px;
+}
+
+.description-sponsor {
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Geologica', sans-serif;
+}
+
+.title-sponsor {
+    align-self: center;
+    font-family: 'Geologica', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .section-sponsor {
+        flex-direction: initial;
+        padding: 50px;
+    }
+
+    .container-img-sponsor {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,110 @@
+.carousel-item.active {
+    justify-content: space-evenly;
+    margin-top: 40px;
+    flex-direction: column;
+    text-align: center;
+    display: flex !important;
+    margin-right: auto;
+
+}
+
+.carousel-item {
+    margin-top: 40px;
+    margin-right: auto !important;
+
+}
+
+.title-carousel {
+    text-align: center;
+    color: #FBEC06;
+    font-family: 'Geologica', sans-serif;
+    overflow: hidden;
+
+}
+
+.carousel-inner {
+    padding: 40px;
+    background-color: black;
+}
+
+.carousel-img {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-img img {
+    width: 100%;
+    height: auto;
+}
+
+.infos-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    height: 500px;
+
+}
+
+.title-description {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #FBEC06;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.description-carousel {
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.description-carousel::-webkit-scrollbar {
+    background-color: #eeeeee;
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.description-carousel::-webkit-scrollbar-thumb {
+    background-color: #FBEC06;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .carousel-item.active {
+        flex-direction: row;
+        margin-right: -100% !important;
+    }
+
+    .carousel-item {
+        margin-right: -100% !important;
+
+    }
+
+    .carousel-img {
+        width: 50%;
+    }
+
+    .carousel-img img {
+        width: 50%;
+        height: 500px;
+    }
+
+    .infos-carousel {
+        width: 50%;
+    }
+
+    .title-description {
+        margin-top: 0px;
+    }
+}
