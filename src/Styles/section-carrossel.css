@@ -79,13 +79,13 @@
     border-radius: 5px;
 }
 
-/* .carousel-control-prev {
+.carousel-control-prev {
     display: none !important;
 }
 
 .carousel-control-next {
     display: none !important;
-} */
+}
 
 @media only screen and (min-width: 768px) {
 
