@@ -1,7 +1,7 @@
 .carousel-item.active {
     justify-content: space-evenly;
     margin-top: 40px;
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
     display: flex !important;
     margin-right: auto;
@@ -10,7 +10,7 @@
 
 .carousel-item {
     margin-top: 40px;
-    margin-right: auto !important;
+    /* margin-right: auto !important; */
 
 }
 
@@ -83,7 +83,7 @@
 
     .carousel-item.active {
         flex-direction: row;
-        margin-right: -100% !important;
+        /* margin-right: -100% !important; */
     }
 
     .carousel-item {
