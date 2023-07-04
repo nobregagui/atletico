@@ -1,0 +1,139 @@
+.last-game {
+    background-color: #000;
+    border-bottom: 7px solid #FBEC06;
+    border-top: 7px solid #FBEC06;
+    padding: 32px;
+    margin-top: 40px;
+}
+
+.section-last-game {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-last-game {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 1150px;
+    gap: 10px;
+}
+
+.container-infos-last-game {
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px; */
+    justify-content: space-around;
+}
+
+.img-last-game-mobile {
+    display: flex;
+}
+
+.img-last-game-desk {
+    display: none;
+}
+
+.paragraph-last-game {
+    font-size: 16px;
+    color: #fff;
+    align-self: center;
+    text-align: center;
+    font-family: 'Geologica', sans-serif;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+.title-last-game-mobile {
+    text-align: center;
+    color: #FBEC06;
+    font-family: 'Geologica', sans-serif;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.title-last-game-desk {
+   display: none;
+}
+
+.local-last-game {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.info-last-game {
+    align-self: center;
+    margin: 0px;
+    color: #fff;
+    font-family: 'Geologica', sans-serif;
+    padding-top: 20px;
+}
+
+.subtitle-info-last-game {
+    font-size: 22px;
+    align-self: center;
+    color: yellow;
+    margin: 0px;
+    display: flex;
+}
+
+.title-img-last-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-img-last-game p {
+    font-size: 20px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-last-game {
+        flex-direction: initial;
+    }
+
+    .img-last-game-mobile {
+        display: none;
+    }
+
+    .img-last-game-desk {
+        display: flex;
+        max-width: 750px;
+    }
+
+    .title-last-game-mobile {
+        display: none;
+    }
+
+    .subtitle-info-last-game {
+        display: none;
+    }
+
+    .title-last-game-desk {
+        text-align: center;
+        color: #FBEC06;
+        font-family: 'Geologica', sans-serif;
+        overflow: hidden;
+        font-size: 42px;
+        display: flex;
+        align-self: center;
+    }
+
+    .container-last-game {
+        gap: 30px;
+    }
+
+    .container-infos-last-game {
+        flex-direction: initial;
+        gap: 0px;
+    }
+
+    .paragraph-last-game {
+        font-size: 30px;
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+}
