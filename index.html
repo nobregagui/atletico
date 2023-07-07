@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Clube Atletico</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./src/Styles/header.css" />
     <link rel="stylesheet" href="./src/Styles/section-carrossel.css" />
     <link rel="stylesheet" href="./src/Styles/section-table.css" />
@@ -57,7 +58,7 @@
           </div>
         </div>
         <div class="container-title">
-          <h1 class="title-header">Sejam bem vindos a nossa casa!</h1>
+          <h1 data-aos="zoom-in-left" class="title-header">Sejam bem vindos a nossa casa!</h1>
         </div>
       </div>
     </header>
@@ -98,7 +99,7 @@
       <!-- Fim indicadores para navegar nos slides do carousel -->
 
       <!-- Início slide carousel -->
-      <div class="carousel-inner">
+      <div data-aos="fade-up" class="carousel-inner">
         <h1 class="title-carousel">Nosso Time</h1>
         <div class="carousel-item active">
           <img
@@ -152,8 +153,8 @@
       <span class="visually-hidden">Next</span>
     </button>
     <!-- Fim anterior e próximo slide carousel -->
-    <div id="estatisticas" class="section-statistic">
-      <h1 class="title-table">Estatisticas do Time</h1>
+    <h1 data-aos="zoom-in-left" class="title-table">Estatisticas do Time</h1>
+    <div data-aos="zoom-in-right" id="estatisticas" class="section-statistic">
       <table id="myTable" class="table table-striped table-bordered">
         <thead>
           <tr>
@@ -281,9 +282,13 @@
       </nav>
     </div>
     <div class="section-store">
-      <h1 class="title-store">Nossos Produtos</h1>
+      <h1 data-aos="fade-down" class="title-store">Nossos Produtos</h1>
       <div class="container-cards-img">
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-up"
+          
+        >
           <img
             class="card-img-top"
             src="./src/img/modeloTorcedor.jpeg"
@@ -304,7 +309,11 @@
             >
           </div>
         </div>
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-up"
+          
+        >
           <img
             class="card-img-top"
             src="./src/img/modeloTorcedora.jpeg"
@@ -325,7 +334,11 @@
             >
           </div>
         </div>
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-up"
+          
+        >
           <img
             class="card-img-top"
             src="./src/img/modeloInfantil.jpeg"
@@ -346,7 +359,11 @@
             >
           </div>
         </div>
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-up"
+          
+        >
           <img
             class="card-img-top"
             src="./src/img/chaveiro-edit.png"
@@ -369,7 +386,7 @@
         </div>
       </div>
     </div>
-    <div id="sobre" class="section-about">
+    <div data-aos="flip-left" id="sobre" class="section-about">
       <h1 class="title-about">Sobre nós</h1>
       <p class="description-about">
         Fundado em 2017, o Atlético Ipê é um time de futebol que representa com
@@ -411,10 +428,10 @@
         rumo a novas conquistas!
       </p>
     </div>
-    <div class="insta-art" style="width: 100%">
+    <div data-aos="flip-right" class="insta-art" style="width: 100%">
       <img style="width: 100%" src="./src/img/arteInsta.png" alt="" />
     </div>
-    <div id="ultimo-jogo" class="last-game">
+    <div data-aos="flip-up" id="ultimo-jogo" class="last-game">
       <div class="section-last-game">
         <h1 class="title-last-game-mobile">Nosso Último Jogo</h1>
         <img
@@ -464,7 +481,7 @@
         />
       </div>
     </div>
-    <div class="section-sponsor">
+    <div data-aos="flip-down" class="section-sponsor">
       <h1 class="title-sponsor">Patrocinadores</h1>
       <div class="container-sponsor">
         <p class="description-sponsor">
@@ -491,7 +508,7 @@
         </div>
       </div>
     </div>
-    <div id="ultimo-jogo" class="last-play">
+    <div data-aos="zoom-in" id="ultimo-jogo" class="last-play">
       <div class="section-last-play">
         <h1 class="title-last-play-mobile">Próximo Jogo</h1>
         <img class="img-last-play" src="./src/img/proximoJogo.jpeg" alt="" />
@@ -535,12 +552,12 @@
       </div>
     </div>
     <div id="destaques" class="section-emphasis">
-      <h1 class="title-emphasis">Destaques do mês</h1>
+      <h1 data-aos="fade-down" class="title-emphasis">Destaques do mês</h1>
       <div class="container-img-emphasis">
-        <div>
+        <div data-aos="zoom-out-right">
           <img src="./src/img/destaqueJul.jpeg" alt="" />
         </div>
-        <div>
+        <div data-aos="zoom-out-left">
           <img src="./src/img/destaquejul2.jpeg" alt="" />
         </div>
       </div>
@@ -581,6 +598,14 @@
       </p>
     </div>
     <!-- Incluir o JS do Bootstrap -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease",
+        once: false,
+      });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

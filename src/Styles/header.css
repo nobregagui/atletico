@@ -56,8 +56,6 @@ html {
         text-align: center;
         align-self: center;
         color: #cfcfcf;
-        animation-duration: 2s;
-        animation-name: slidein-left;
         background-color: #000000a4;
 
 
@@ -65,17 +63,10 @@ html {
 
     .title-header {
         font-size: 65px;
-        animation-duration: 2s;
-        animation-name: slidein-rigth;
     }
 
     .container-title {
         margin-top: 85px;
-    }
-
-    .container-button {
-        animation-duration: 4s;
-        animation-name: opacity;
     }
 }
 
@@ -92,8 +83,6 @@ html {
     font-family: 'Caveat', cursive;
     text-align: center;
     font-weight: bold;
-    animation-duration: 2s;
-    animation-name: opacity;
     overflow: hidden;
 }
 
@@ -158,39 +147,5 @@ html {
         font-size: 20px;
         color: #203B33;
         font-weight: bold;
-    }
-}
-
-@keyframes slidein-rigth {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-@keyframes slidein-left {
-    from {
-        margin-right: 100%;
-        width: 300%;
-    }
-
-    to {
-        margin-right: 0%;
-        width: 100%;
-    }
-}
-
-@keyframes opacity {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
     }
 }
